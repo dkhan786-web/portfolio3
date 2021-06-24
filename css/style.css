@@ -81,7 +81,8 @@ a, a:hover {
 .header-banner-text-box .quote-box h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 800;
-  color: #F3D920;
+  color: #F3D920 !important;
+  -webkit-color: #F3D920 !important;
   font-size: 80px;
 }
 .header-banner-text-box .quote-box span {
