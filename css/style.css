@@ -64,10 +64,6 @@ body nav .navbar-nav .btn-danger:hover {
   border-color: #df6700;
 }
 
-a, a:hover {
-  color: #ff8013;
-}
-
 .header-banner-text-box {
   position: relative;
   max-height: 120px;
@@ -108,7 +104,7 @@ a, a:hover {
 
 /** About C3 fitness club **/
 .about-fitness-club, .fh5co-about-us {
-  background: url("../images/about-bg.jpg");
+  background: #292929;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -118,8 +114,11 @@ a, a:hover {
 .about-fitness-club .bounceInUp{
   text-transform: uppercase;
 }
-.about-fitness-club figure, .fh5co-about-us figure {
+.about-fitness-club .carousel{
   margin-top: -70px !important;
+}
+.about-gym-extra{
+  margin-top: 50px;
 }
 .about-fitness-club h2, .fh5co-about-us h2 {
   color: #ff8013;
@@ -128,20 +127,33 @@ a, a:hover {
   font-size: 40px;
   margin-bottom: 0;
 }
-.about-fitness-club h4, .fh5co-about-us h4,
-.about-fitness-club h5, .fh5co-about-us h5, 
-.about-fitness-club p, .fh5co-about-us p {
-  color: #282828;
-  font-family: 'Lato', sans-serif;
+.about-fitness-club h4{
+  color: #F3D920 !important;
   font-weight: 700;
+  font-size: 35px;
 }
-.about-fitness-club hr, .fh5co-about-us hr {
-  border-color: #ff8013;
-  border-width: 5px;
-  max-width: 100px;
-  margin-left: 0;
-  border-radius: 5px;
+.about-fitness-club p {
+  color: #e0e0e0 !important;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
 }
+.about-fitness-club li{
+  color: #e0e0e0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  list-style: none;
+  line-height: 2rem;
+}
+.about-fitness-club li i{
+  color: #F3D920 !important;
+}
+.fh5co-about-us h4,
+.about-fitness-club h5, .fh5co-about-us h5, 
+.about-fitness-club p{
+  color: #282828;
+  font-weight: 500;
+}
+
 .about-fitness-club figure, .fh5co-about-us figure {
   text-align: center;
 }
@@ -397,8 +409,8 @@ footer::before {
     color: rgb(226, 226, 226);
     width: 100%;
   }
-  .fh5co-network figure, .fh5co-about-us figure {
-    margin-top: 0 !important;
+  .about-fitness-club .carousel{
+    margin-top: 0px !important;
   }
 
   .fh5co-content-box .pr-0 img {
